@@ -9,7 +9,7 @@
 	"supports": {
 		"html": false
 	},
-	"textdomain": ".",
+	"textdomain": "react-frontend-demo",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"
