@@ -1,0 +1,20 @@
+name: react-frontend-demo
+recipe: lemp
+services:
+  appserver:
+    app_mount: false
+    build_as_root:
+      - cd /react-frontend-demo/.lando/ && ./setup-wordpress-files.sh && ./install-wp-cli.sh
+    run:
+      - /react-frontend-demo/.lando/install-wordpress.sh
+    overrides:
+      volumes:
+        - .:/react-frontend-demo
+  appserver_nginx:
+    build_as_root:
+      - /react-frontend-demo/.lando/setup-wordpress-files.sh
+config:
+  php: '8.2'
+  database: mariadb
+  config:  
+    vhosts: .lando/nginx.conf
