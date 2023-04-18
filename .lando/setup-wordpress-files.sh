@@ -1,12 +1,13 @@
 #!/bin/sh
 
-echo "Downloading WordPress on $LANDO_SERVICE_NAME ..."
 cd /react-frontend-demo/.lando
-rm -rf wordpress
-curl -O https://wordpress.org/latest.tar.gz
-tar -xzf latest.tar.gz
-rm latest.tar.gz
-echo "Done downloading WordPress on $LANDO_SERVICE_NAME ..."
+if [ ! -d "wordpress" ]; then
+    echo "Downloading WordPress on $LANDO_SERVICE_NAME ..."
+    curl -O https://wordpress.org/latest.tar.gz
+    tar -xzf latest.tar.gz
+    rm latest.tar.gz
+    echo "Done downloading WordPress on $LANDO_SERVICE_NAME ..."
+fi
 
 echo "Setting up WordPress on $LANDO_SERVICE_NAME ..."
 rm -rf /wordpress

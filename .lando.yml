@@ -10,11 +10,12 @@ services:
     overrides:
       volumes:
         - .:/react-frontend-demo
+      environment:
+        WP_CLI_CONFIG_PATH: /wordpress/wp-cli.yml
   appserver_nginx:
     build_as_root:
       - /react-frontend-demo/.lando/setup-wordpress-files.sh
 config:
   php: '8.2'
-  database: mariadb
   config:  
     vhosts: .lando/nginx.conf

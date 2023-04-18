@@ -1,11 +1,11 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/.",
+	"name": "mikethicke/react-frontend-demo",
 	"version": "0.1.0",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "Example block with React frontend.",
 	"supports": {
 		"html": false
 	},
