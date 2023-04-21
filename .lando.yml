@@ -3,6 +3,9 @@ recipe: lemp
 services:
   appserver:
     app_mount: false
+    xdebug: debug, develop
+    config:
+      php: .lando/php.ini
     build_as_root:
       - cd /react-frontend-demo/.lando/ && ./setup-wordpress-files.sh && ./install-wp-cli.sh
     run:
@@ -19,3 +22,8 @@ config:
   php: '8.2'
   config:  
     vhosts: .lando/nginx.conf
+tooling:
+  wp:
+    service: appserver
+    description: Runs WP-CLI commands
+    cmd: wp
