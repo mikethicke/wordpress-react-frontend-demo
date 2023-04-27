@@ -1,16 +1,13 @@
 import { useBlockProps } from '@wordpress/block-editor';
-import { AlertButton } from '../../components/alert-button/alert-button';
 
 export default function Save( { attributes } : any ) {
+	// Just saving a blank div for now. Probably want to have some kind of
+	// loading placeholder? Or could do server-side rendering?
 	return (
 		<div 
 			{ ...useBlockProps.save() } 
 			data-attributes = { JSON.stringify( attributes ) }
 		>
-			<AlertButton.Content
-				buttonText = { attributes.buttonText }
-				alertText = { attributes.alertText }
-			/>
 		</div>
 	);
 }
