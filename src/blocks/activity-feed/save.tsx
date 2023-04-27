@@ -1,7 +1,7 @@
 import { useBlockProps } from '@wordpress/block-editor';
-import { AlertButton } from '../../components/alert-button';
+import { AlertButton } from '../../components/alert-button/alert-button';
 
-export default function Save( { attributes } ) {
+export default function Save( { attributes } : any ) {
 	return (
 		<div 
 			{ ...useBlockProps.save() } 

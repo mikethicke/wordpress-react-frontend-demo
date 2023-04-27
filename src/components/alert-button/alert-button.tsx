@@ -1,7 +1,7 @@
 import { __ } from '@wordpress/i18n';
 import { Button } from '@wordpress/components';
 
-export const AlertButton = props => {
+export const AlertButton = ( props : any ) => {
 	const {
 		buttonText,
 		alertText
@@ -17,7 +17,7 @@ export const AlertButton = props => {
 	);
 };
 
-AlertButton.Content = props => {
+AlertButton.Content = ( props : any ) => {
 	const {
 		buttonText,
 		alertText

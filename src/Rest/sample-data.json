@@ -1,0 +1,113 @@
+{
+    "activity_feed": [
+        {
+            "action": "new_deposit",
+            "deposit": {
+                "title": "Diverse mechanisms of resistance to Pseudomonas syringae in a thousand natural accessions of Arabidopsis thaliana",
+                "preview": "Plants are continuously threatened by pathogen attack and, as such, they have evolved mechanisms to evade, escape and defend themselves against pathogens. However, it is not known what types of defense mechanisms a plant would already possess to defend against a potential pathogen that has not co-evolved with the plant. We addressed this important",
+                "link": "https://hcommons.org/deposits/item/hc:52571/"
+            },
+            "group": {
+                "name": "Global Digital Humanities Symposium",
+                "link": "https://hcommons.org/groups/global-digital-humanities-symposium/"
+            },
+            "member": {
+                "name": "Matthew Alan Oney",
+                "profile": "https://commons.msu.edu/members/oneymatt/",
+                "avatar": "//www.gravatar.com/avatar/73bb5f76255ece7ad8b6032fe2c683e6?s=150&r=g&d=identicon"
+            },
+            "organization": "MSU Commons",
+            "time_since": "2 hours ago"
+        },
+        {
+            "action": "new_post",
+            "post": {
+                "title": "Dr Tina O'Toole on Avant Garde Feminism in Early Twentieth Century Ireland",
+                "link": "https://itwasadarkandstormynight.hcommons.org/?p=101"
+            },
+            "site": {
+                "name": "Where the Sun Hits: A Research Blog by Emily Dollery",
+                "link": "https://itwasadarkandstormynight.hcommons.org/"
+            },
+            "member": {
+                "name": "Emily Dollery",
+                "profile": "https://hcommons.org/members/emilydollery/",
+                "avatar": "//www.gravatar.com/avatar/b0d1770907d73e66e64cc57650c1b75e?s=60&r=g&d=identicon"
+            },
+            "preview": "In February I attended a talk given by Tina O’Toole of the University of Limerick on Avant Garde Feminism in a selection of early twentieth century texts. I was interested in attending as twentieth century",
+            "organization": "Humanities Commons",
+            "time_since": "1 day ago"
+        },
+        {
+            "action": "new_topic",
+            "topic": {
+                "title": "Characterising the IIIF and Linked Art communities – Online Survey",
+                "link": "https://hcommons.org/groups/digital-humanists/forum/topic/characterising-the-iiif-and-linked-art-communities-online-survey/"
+            },
+            "discussion": {
+                "name": "Digital Humanists",
+                "link": "https://hcommons.org/groups/digital-humanists/forum/"
+            },
+            "member": {
+                "name": "Julien Raemy",
+                "profile": "https://hcommons.org/members/julsraemy/",
+                "avatar": "https://hcommons.org/app/uploads/avatars/1027746/6233417376e93-bpfull.jpg"
+            },
+            "preview": "Dear all,\n\nAs part of my PhD in Digital Humanities, I have launched an online survey to find out the main practices and activities of the individuals involved in the International Image Interoperability Framework (IIIF) and/or the Linked Art communities.\n\nAre you involved or have you already been in contact with the IIIF and/or the Linked Art",
+            "organization": "Humanities Commons",
+            "time_since": "4 days ago"
+        },
+        {
+            "action": "reply_topic",
+            "topic": {
+                "title": "19th-c. American literature",
+                "link": "https://hcommons.org/groups/american-literature/forum/topic/19th-c-american-literature/"
+            },
+            "discussion": {
+                "name": "American Literature",
+                "link": "https://hcommons.org/groups/american-literature/forum/"
+            },
+            "member": {
+                "name": "Sylvia Fernandez",
+                "profile": "https://hcommons.org/members/sferna109/",
+                "avatar": "//www.gravatar.com/avatar/21c01af9aeb6c670f80b8944b5b3f83a?s=60&r=g&d=identicon"
+            },
+            "preview": "I’d suggest emailing the American Studies department at the CUNY graduate center. They might have grad students who can take on your task. (Of course, the NYPL is closed for archival research at the",
+            "organization": "Humanities Commons",
+            "time_since": "4 days ago"
+        }
+    ],
+    "recent_deposits": [
+        {
+            "name": "I, Discomfort Woman: A Fugue in F Minor",
+            "link": "https://hcommons.org/deposits/item/hc:51717/",
+            "authors": [
+                "Seo-Young Chu",
+                "Kit Yee Wong"
+            ],
+            "editors": [
+                "Mohammed Gharioua"
+            ],
+            "date": "2023"
+        }
+    ],
+    "popular_deposits": [
+        {
+            "name": "Popular Deposit",
+            "link": "https://hcommons.org/deposits/item/hc:51717/",
+            "authors": [
+                "A Person",
+                "B Person"
+            ],
+            "editors": [
+                "Mohammed Gharioua"
+            ],
+            "date": "2023"
+        }
+    ],
+    "statistics": {
+        "followers": 647,
+        "deposits": 996,
+        "downloads": 5892
+    }
+}

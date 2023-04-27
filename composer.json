@@ -1,0 +1,18 @@
+{
+    "name": "mikethicke/remote-frontend-demo",
+    "description": "Demo plugin for using WordPress blocks with React frontend",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MikeThicke\\ReactFrontendDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mike Thicke",
+            "email": "thickemi@msu.edu"
+        }
+    ],
+    "require": {}
+}

@@ -26,7 +26,7 @@ import metadata from './block.json';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-const a = registerBlockType( metadata.name, {
+registerBlockType( metadata.name, {
 	/**
 	 * @see ./edit.js
 	 */
@@ -36,6 +36,6 @@ const a = registerBlockType( metadata.name, {
 	 * @see ./save.js
 	 */
 	save: Save,
-} );
+} as any );
 
-console.log( "a" + JSON.stringify( a ) );
+

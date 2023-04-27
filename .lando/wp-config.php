@@ -35,8 +35,8 @@ if (getenv('LANDO_INFO')) {
 	define('DB_HOST', $database_config->internal_connection->host);
   
 	/** URL routing (Optional, may not be necessary) */
-	define('WP_HOME', $lando_info->appserver_nginx->urls[0] );
-	define('WP_SITEURL', $lando_info->appserver_nginx->urls[0] );
+	define('WP_HOME', $lando_info->appserver_nginx->urls[2] );
+	define('WP_SITEURL', $lando_info->appserver_nginx->urls[2] );
   }
 
 /** Database charset to use in creating database tables. */

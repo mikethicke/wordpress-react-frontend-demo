@@ -1,9 +1,8 @@
 import { __ } from '@wordpress/i18n';
-import { useBlockProps } from '@wordpress/block-editor';
-import { InspectorControls } from '@wordpress/block-editor';
+import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, PanelRow, TextControl } from '@wordpress/components';
 
-import { AlertButton } from '../../components/alert-button';
+import { AlertButton } from '../../components/alert-button/alert-button';
 
 import './editor.scss';
 
@@ -15,7 +14,7 @@ import './editor.scss';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit( { attributes, setAttributes } ) {
+export default function Edit( { attributes, setAttributes } : any ) {
 	const {
 		buttonText,
 		alertText

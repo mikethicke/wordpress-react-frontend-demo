@@ -9,10 +9,20 @@
  * License:           MIT
  * Text Domain:       react-frontend-demo
  *
- * @package           react-frontend-demo
+ * @package           MikeThicke\react-frontend-demo
  */
 
 namespace MikeThicke\ReactFrontendDemo;
+
+use MikeThicke\ReactFrontendDemo\Rest\DisciplinaryHomesController;
+
+/**
+ * Composer autoloader.
+ * 
+ * @see https://getcomposer.org/doc/01-basic-usage.md#autoloading
+ * @see https://anchor.host/composer-autoloading-within-wordpress-plugin/
+ */
+require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
@@ -23,6 +33,7 @@ namespace MikeThicke\ReactFrontendDemo;
  */
 function block_init() {
 	register_block_type( __DIR__ . '/build/alert-button' );
+	register_block_type( __DIR__ . '/build/activity-feed' );
 }
 add_action( 'init', __NAMESPACE__ . '\block_init' );
 
@@ -45,3 +56,12 @@ function frontend_enqueue() {
 	);
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\frontend_enqueue' );
+
+/**
+ * Register REST routes.
+ */
+function register_rest_routes() {
+	$controller = new DisciplinaryHomesController();
+	$controller->register_routes();
+}
+add_action( 'rest_api_init', __NAMESPACE__ . '\register_rest_routes' );
